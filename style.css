@@ -15,6 +15,7 @@ body {
 }
 
 h1,
+h2,
 p {
     margin: 0;
 }
@@ -100,4 +101,47 @@ button {
 .banner-area .side-with-img img {
     width: 100px;
     height: 100px;
+}
+
+.main-info-area {
+    height: fit-content;
+    text-align: center;
+}
+
+.main-info-area h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.info-tile-container {
+    width: auto;
+    font-size: 18px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+.info-tile {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-tile-img-container {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-tile-img-container img {
+    min-width: 250px;
+    min-height: 250px;
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
