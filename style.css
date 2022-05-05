@@ -170,3 +170,30 @@ button {
     font-style: normal;
     color: #1F2937;
 }
+
+.call-to-action-bar {
+    padding: 40px 80px;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-bar > * {
+    min-width: 33%;
+    max-width: 33%;
+}
+
+.call-to-action-bar .side-with-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-bar button {
+    border: 2px solid #F9FAF8;
+}
