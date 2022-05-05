@@ -30,8 +30,21 @@ button {
     border: none;
 }
 
+.body-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-area > * {
+    margin-bottom: 100px;
+    padding: 32px 12.5%;
+}
+
 .header,
 .footer {
+    padding: 0 12.5%;
     min-height: 50px;
     background-color: #1F2937;
     display: flex;
@@ -122,6 +135,7 @@ button {
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
+    margin-bottom: 100px;
 }
 
 .info-tile-container {
@@ -140,6 +154,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8px;
 }
 
 .info-tile-img-container {
@@ -181,7 +196,17 @@ button {
     color: #1F2937;
 }
 
+.call-to-action-bar-container {
+    min-height: 50px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-to-action-bar {
+    width: 100%;
     padding: 40px 80px;
     font-size: 18px;
     color: #F9FAF8;
